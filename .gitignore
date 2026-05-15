@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+coverage/
+.nyc_output/
+
+# Backend
+backend/dist/
+backend/*.log
+
+# Frontend
+safety-frontend/dist/
+safety-frontend/*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# NestJS
+backend/.venv/
